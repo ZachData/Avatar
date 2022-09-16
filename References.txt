@@ -1,0 +1,32 @@
+
+In-Betweening Frames (BVH):
+https://github.com/rinongal/textual_inversion
+@misc{gal2022textual,
+      doi = {10.48550/ARXIV.2208.01618},
+      url = {https://arxiv.org/abs/2208.01618},
+      author = {Gal, Rinon and Alaluf, Yuval and Atzmon, Yuval and Patashnik, Or and Bermano, Amit H. and Chechik, Gal and Cohen-Or, Daniel},
+      title = {An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion},
+      publisher = {arXiv},
+      year = {2022},
+      primaryClass={cs.CV}
+}
+
+Animating In-Between frames (BVH -> NeRF representation):
+https://github.com/apple/ml-neuman
+@inproceedings{jiang2022neuman,
+  title={NeuMan: Neural Human Radiance Field from a Single Video},
+  author={Jiang, Wei and Yi, Kwang Moo and Samei, Golnoosh and Tuzel, Oncel and Ranjan, Anurag},
+  booktitle={Proceedings of the European conference on computer vision (ECCV)},
+  year={2022}
+}
+
+Stylizing output (NeRF rep -> Diffusion rep):
+https://github.com/boreshkinai/delta-interpolator
+@misc{oreshkin2022motion,
+      title={Motion Inbetweening via Deep $\Delta$-Interpolator}, 
+      author={Boris N. Oreshkin and Antonios Valkanas and Félix G. Harvey and Louis-Simon Ménard and Florent Bocquelet and Mark J. Coates},
+      year={2022},
+      eprint={2201.06701},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
